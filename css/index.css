@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#homePage {
+    background-color: azure;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#navigationArea {
+    border: 5px solid red;
+    margin: 10px;
+    background-color: lightcyan;
+    float: right;
+    width: auto;
+    height: 24px;
+    margin-bottom: 20%;
+}
+
+#moreProduct {
+    float: right;
+    width: auto;
+    line-height: 24px;
+    height: 24px;
+}
+
+#moreProduct a{
+    display: inline-block;             /* 使得a在div中垂直方向居中，变成块级标签或者是行内块级标签*/
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    background-color: #38f;
+    line-height: 24px;
+    height: 24px;
+}
+
+#navigationItemArea {
+    float: right;
+    background-color: white;
+}
+
+.navigationItem {
+    display: inline-block;
+    right: 0px;
+    height: 24px;
+    font-size: 13px;
+    line-height: 24px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.navigationItem a {
+    color: #000;
+}
+
+
+#iconAndInputArea {
+    background-color: blue;
+    width: 100%;
+    height: 191px;
+    margin-top: 20%;
+    left:0;
+    margin-bottom: 25%;
+}
+
+#iconArea {
+    position: relative;
+    width: auto;
+    height: 132px;
+    text-align: center;
+}
+
+
+#iconArea img {
+    position: absolute;
+    width: 270px;
+    height: 129px;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#inputArea {
+    width: auto;
+    height: 36px;
+    background-color: aqua;
+    text-align: center;
+    margin-top: 2px;
+}
+
+#inputArea input {
+    border: 1px solid red;
+    width: 540px;
+    height: 36px;
+    line-height: 36px;
+}
+
+
+#qrCodeArea {
+    background-color: blueviolet;
+    left:0;
+    height: 83px;
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 7%;
+}
+
+
+#footer {
+    background-color: green;
+    left:0;
+    width: 100%;
+    height: 46px;
+    margin-top: 7%;
+}
