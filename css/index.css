@@ -87,17 +87,37 @@
 
 #inputArea {
     width: auto;
-    height: 36px;
-    background-color: aqua;
+    height: auto;
+    background-color: white;
     text-align: center;
-    margin-top: 2px;
+    margin-top: 4px;
 }
 
-#inputArea input {
-    border: 1px solid red;
-    width: 540px;
+#searchTextFiled {
+    border: 1px solid #38f;
+    display: inline-block;
+    width: 640px;
     height: 36px;
     line-height: 36px;
+    background-color: white;
+}
+
+#searchButton {
+    float: right;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #38f;
+    text-align: center;
+}
+
+#searchButton a {
+    display: inline-block;
+    width: 100px;
+    font-size: 13px;
+    color: white;
+    background-color: #38f;
+    text-decoration: none;
 }
 
 
