@@ -4,7 +4,7 @@
 }
 
 #homePage {
-    background-color: azure;
+    background-color: white;
     position: absolute;
     top:0;
     left: 0;
@@ -13,13 +13,13 @@
 }
 
 #navigationArea {
-    border: 5px solid red;
+    /*border: 5px solid red;*/
     margin: 10px;
-    background-color: lightcyan;
+    background-color: white;
     float: right;
     width: auto;
     height: 24px;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 #moreProduct {
@@ -30,7 +30,7 @@
 }
 
 #moreProduct a{
-    display: inline-block;             /* 使得a在div中垂直方向居中，变成块级标签或者是行内块级标签*/
+    display: block;             /* 使得a在div中垂直方向居中，变成块级标签或者是行内块级标签*/
     text-decoration: none;
     color: white;
     font-size: 13px;
@@ -60,12 +60,12 @@
 
 
 #iconAndInputArea {
-    background-color: blue;
+    background-color: white;
     width: 100%;
     height: 191px;
-    margin-top: 20%;
+    margin-top: 10%;
     left:0;
-    margin-bottom: 25%;
+    margin-bottom: 20%;
 }
 
 #iconArea {
@@ -111,22 +111,6 @@
     text-align: center;
 }
 
-#photoVoiceIcon {
-    background-color: lightcyan;
-    float: right;
-    height: 36px;
-    width: auto;
-}
-
-.photoVoiceClass {
-    display: inline-block;
-}
-
-#photoIcon img {
-    width: 18px;
-    height: 16px;
-}
-
 #searchButton a {
     display: inline-block;
     width: 100px;
@@ -136,21 +120,112 @@
     text-decoration: none;
 }
 
+#photoVoiceIcon {
+    background-color: white;
+    float: right;
+    height: 36px;
+    width: auto;
+}
 
-#qrCodeArea {
-    background-color: blueviolet;
-    left:0;
-    height: 83px;
-    width: 100%;
-    margin-top: 25%;
-    margin-bottom: 7%;
+.photoVoiceClass {
+    display: inline-block;
+    width: 36px;
+}
+
+#seperator {
+    width: 2px;
+}
+
+#photoVoiceIcon img {
+    width: 18px;
+    height: 16px;
 }
 
 
+#inputTextField {
+    float: right;
+    left: 0;
+    height: 36px;
+    width: 70%;
+    background-color: white;
+}
+
+#inputTextField input {
+    outline: none;
+    border-width: 0;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 36px;
+
+}
+
+#qrCodeArea {
+    background-color: white;
+    left:0;
+    height: 86px;
+    width: 100%;
+    margin-top: 20%;
+    /*margin-bottom: 7%;*/
+    text-align: center;
+
+}
+
+#qrcode img {
+    width: 60px;
+    height:60px;
+}
+
+#baidu {
+    width: 100%;
+    height: 24px;
+}
+
+#baidu b {
+    color: black;
+}
+
 #footer {
-    background-color: green;
+    background-color: white;
     left:0;
     width: 100%;
     height: 46px;
-    margin-top: 7%;
+    /*margin-top: %;*/
+    text-align: center;
+}
+
+
+#aboutBaidu {
+    height: 22px;
+    background-color: white;
+    width: auto;
+
+}
+
+.aboutBaiduClassItem {
+    display: inline-block;
+    height: 22px;
+    margin-right: 20px;
+}
+
+.aboutBaiduClassItem a {
+    color: #999;
+    font-size: 12px;
+}
+
+#cp {
+    height: 24px;
+    background-color: white;
+}
+
+#cp p {
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+
+#cp p a {
+    color: #999;
 }
