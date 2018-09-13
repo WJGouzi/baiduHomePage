@@ -111,6 +111,22 @@
     text-align: center;
 }
 
+#photoVoiceIcon {
+    background-color: lightcyan;
+    float: right;
+    height: 36px;
+    width: auto;
+}
+
+.photoVoiceClass {
+    display: inline-block;
+}
+
+#photoIcon img {
+    width: 18px;
+    height: 16px;
+}
+
 #searchButton a {
     display: inline-block;
     width: 100px;
